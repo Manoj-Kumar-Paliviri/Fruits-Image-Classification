@@ -30,8 +30,8 @@ def set_bg_hack(main_bg):
         )
 set_bg_hack('bg.jpg')
 
-st.title('Image Classfier using Machine Learning')
-st.text('Upload the image to classify')
+st.title('Fruit Image Classfier')
+st.text('Upload the image(Orange/Apple/Banana) to classify')
 model = joblib.load('Fruit Classifier')
 uploaded_file = st.file_uploader("Choose an Image....",type = 'jpg')
 
