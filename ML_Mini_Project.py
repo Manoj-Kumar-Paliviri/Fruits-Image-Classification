@@ -28,7 +28,7 @@ def set_bg_hack(main_bg):
             """,
             unsafe_allow_html=True
         )
-set_bg_hack('bg_img.jpg')
+set_bg_hack('bg.jpg')
 
 st.title('Image Classfier using Machine Learning')
 st.text('Upload the image to classify')
