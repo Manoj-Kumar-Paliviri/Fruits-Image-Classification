@@ -27,3 +27,4 @@ if st.button('PREDICT'):
   q = model.predict_proba(flat_data)
   for index,item in enumerate(CATEGORIES):                  #prints the probability of all the categories
     st.write(f'{item} : {q[0][index]*100}%')
+    
